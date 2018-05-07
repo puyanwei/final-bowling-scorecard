@@ -2,104 +2,94 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="lib/jquery-3.2.1.js"></script>
-  <title>Bowling Scorecard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="lib/jquery-3.2.1.js"></script>
+    <title>Bowling Scorecard</title>
 </head>
 
 <body>
+    <h2>Bowling Scorecard</h2>
 
-  <h2>Bowling Scorecard</h2>
+    <div class="scorecard-wrapper">
+        <table>
+            <tr class="frame-title-container">
+                <th></th>
+                <th>Frame 1</th>
+                <th>Frame 2</th>
+                <th>Frame 3</th>
+                <th>Frame 4</th>
+                <th>Frame 5</th>
+                <th>Frame 6</th>
+                <th>Frame 7</th>
+                <th>Frame 8</th>
+                <th>Frame 9</th>
+                <th>Frame 10</th>
+            </tr>
 
-  <div class="scorecard">
-    <table>
-      <tr class="frame-title-container">
-        <th></th>
-        <th>Frame 1</th>
-        <th>Frame 2</th>
-        <th>Frame 3</th>
-        <th>Frame 4</th>
-        <th>Frame 5</th>
-        <th>Frame 6</th>
-        <th>Frame 7</th>
-        <th>Frame 8</th>
-        <th>Frame 9</th>
-        <th>Frame 10</th>
-      </tr>
-      <tr class="score-container">
-        <td id="name">Player 1</td>
-        <td class="frame-one">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-two">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-three">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-four">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-five">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-six">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-seven">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-eight">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-nine">
-          <div><span class="first"></span>&emsp;<span class="second"></span></div>
-          <br>
-          <div class="total"></div>
-        </td>
-        <td class="frame-ten">
-          <div><span class="first"></span>&emsp;<span class="second"></span>&emsp;<span></span class="third"></div>
-          <br>
-          <div class="total"></div>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <br>
-  <div class="score-buttons">
-    <form class="buttons">
-      <input id="0" class="button" type="button" value="0"></input>
-      <input id="1" class="button" type="button" value="1"></input>
-      <input id="2" class="button" type="button" value="2"></input>
-      <input id="3" class="button" type="button" value="3"></input>
-      <input id="4" class="button" type="button" value="4"></input>
-      <input id="5" class="button" type="button" value="5"></input>
-      <input id="6" class="button" type="button" value="6"></input>
-      <input id="7" class="button" type="button" value="7"></input>
-      <input id="8" class="button" type="button" value="8"></input>
-      <input id="9" class="button" type="button" value="9"></input>
-      <input id="10" class="button" type="button" value="10"></input>
-    </form>
-  </div>
+            <tr class="score-container">
+                <td id="name">Player 1</td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span>&emsp;<span></span></div>
+                    <br>
+                </td>
+                <td>
+                    <div><span></span>&emsp;<span></span>&emsp;<span></span></div>
+                    <br>
+                    <div class="total"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="score-buttons">
+        <form class="buttons">
+            <input id="0" class="button" type="button" value="0"></input>
+            <input id="1" class="button" type="button" value="1"></input>
+            <input id="2" class="button" type="button" value="2"></input>
+            <input id="3" class="button" type="button" value="3"></input>
+            <input id="4" class="button" type="button" value="4"></input>
+            <input id="5" class="button" type="button" value="5"></input>
+            <input id="6" class="button" type="button" value="6"></input>
+            <input id="7" class="button" type="button" value="7"></input>
+            <input id="8" class="button" type="button" value="8"></input>
+            <input id="9" class="button" type="button" value="9"></input>
+            <input id="10" class="button" type="button" value="10"></input>
+        </form>
+    </div>
 
-  <script src="src/interface.js"></script>
-
+    <script src="src/interface.js"></script>
 </body>
 
 </html>
