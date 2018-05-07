@@ -1,7 +1,8 @@
 'use strict';
 
 class Bowl {
-    constructor(score) {
+    constructor(score, index) {
         this.score = score;
+        this.index = index;
     }
 }
