@@ -1,8 +1,12 @@
+'use strict';
+
 class Game {
     constructor() {
         this.scorecard = [];
     }
-    // test() {
-    //     console.log('This is a test');
-    // }
+
+    inputBowl(score, index) {
+        let bowl = new Bowl(score, index);
+        this.scorecard.push(bowl);
+    }
 }
